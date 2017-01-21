@@ -1,0 +1,12 @@
+<resources>
+    <string name="download_queue_provider_authority">com.amazonaws.mobile.downloader-com.example.azarchatit.facebookphotosexp</string>
+    <string name="content_file_provider_authority">com.mysampleapp.fileprovider</string>
+    <string name="app_name">FacebookPhotosExp</string>
+    <string name="facebook_app_id">1307753759298915</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_log_in_button">Log in</string>
+    <string name="com_facebook_loginview_log_in_button_long">Log in with Facebook</string>
+
+    <string name="infos">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseruntmollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut laboreet dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</string>
+</resources>
