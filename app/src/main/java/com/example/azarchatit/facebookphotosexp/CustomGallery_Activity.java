@@ -110,7 +110,7 @@ public class CustomGallery_Activity extends AppCompatActivity {
         selectedItems = imagesAdapter.getCheckedItems();
 
         if (selectedItems.size() > 0) {
-            saveImages.setText("SAVE " + " - " + selectedItems.size() + " Selected Image(s) ");
+            saveImages.setText("UPLOAD" + " - " + selectedItems.size() + " Selected Image(s) ");
             saveImages.setVisibility(View.VISIBLE);
         } else
             saveImages.setVisibility(View.GONE);
@@ -123,8 +123,8 @@ public class CustomGallery_Activity extends AppCompatActivity {
             //When button is clicked then fill array with selected images
             selectedItems = imagesAdapter.getCheckedItems();
             final AlertDialog dialog = new AlertDialog.Builder(CustomGallery_Activity.this).create();
-            dialog.setTitle("save Image");
-            dialog.setMessage("do you want to save those Images?");
+            dialog.setTitle("Upload Images");
+            dialog.setMessage("do you want to Upload those Images?");
             dialog.setButton("Yes", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -231,7 +231,7 @@ public class CustomGallery_Activity extends AppCompatActivity {
 
                     AlertDialog.Builder builder = new AlertDialog.Builder(CustomGallery_Activity.this);
                     builder.setTitle("");
-                    builder.setMessage("images have been saved successfully");
+                    builder.setMessage("images have been uploaded successfully");
                     builder.setPositiveButton("OK", null);
                     AlertDialog dialog = builder.show();
 
